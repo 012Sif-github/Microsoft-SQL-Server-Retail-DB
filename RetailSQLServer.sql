@@ -15,7 +15,7 @@ and s.staff_id = bill.staff_id
 and s.staff_id = di.staff_id
 and di.delivery_item_id = dd.delivery_item_id
 and v.vin_number = dd.vin_number
-and b.bill_date = '10 November 2016';
+and b.bill_date = '10 November 2020';
 dbms_output.put_line('CUSTOMER: ' || cust_name);
 dbms_output.put_line('BILL DATE: ' || b_date);
 dbms_output.put_line('DESCRIPTION: ' || description);
